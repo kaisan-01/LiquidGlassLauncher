@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.kais an.liquidglass'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.kaisan.liquidglass'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
